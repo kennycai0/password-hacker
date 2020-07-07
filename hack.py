@@ -16,7 +16,7 @@ class Hack:
         self.password_generator = self.password()
 
         self.letters_digits = string.ascii_letters + string.digits
-        self.login_file = "C:\\Users\\kenny\\OneDrive\\Desktop\\logins.txt"
+        self.login_file = "logins.txt"
 
     def password(self):
         while True:
